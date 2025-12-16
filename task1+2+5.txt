@@ -1,0 +1,26 @@
+Task1 task 3 (Challenge):
+
+Explain the difference between a primary key and a unique constraint. Can both exist in one table?
+yes like email or national number (unique), id number (pk)
+data: raw unfiltred measurments.
+
+
+Task 2 Task 2 ;
+transitive is like a student having a city and a zip code which is an attribute that relates to another attribute which defies the 3nf and causes unneccessery redundency.
+partial is when ana attribute relies on one foreighn key like the name of the subject in a test mark table its unneeded defies 2nf and causes redunduncy.
+
+
+Task2 task 3 (Challenge):
+ banking system, redundncy is needed to verify users in the most secure way like requiring name and email every time you login the system.
+Task 5 ;
+information: processed data.
+database: collectin of attributes that describe an object that is identfied by records in said table aka db.
+dbms: where you can create, access, alter -control- dbs.
+rdbms: like dbms but for relational dbs -more complex connections-.
+the system im identifying is a SCHOOL:
+students: id, class, name.
+teachers: id, class-given, name.
+management: id, responsibility.
+class: teacherid, studentid.
+
+
