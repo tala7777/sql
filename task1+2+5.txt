@@ -4,7 +4,13 @@ Explain the difference between a primary key and a unique constraint. Can both e
 yes like email or national number (unique), id number (pk)
 data: raw unfiltred measurments.
 
+task 2 task1:
 
+Given a table with the following structure, normalize it up to 3NF:
+
+| order_id | customer_name | product_name | product_price |
+solution:
+|order_id|customer_id|product_id|
 Task 2 Task 2 ;
 transitive is like a student having a city and a zip code which is an attribute that relates to another attribute which defies the 3nf and causes unneccessery redundency.
 partial is when ana attribute relies on one foreighn key like the name of the subject in a test mark table its unneeded defies 2nf and causes redunduncy.
