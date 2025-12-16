@@ -1,0 +1,12 @@
+data: raw unfiltred measurments.
+information: processed data.
+database: collectin of attributes that describe an object that is identfied by records in said table aka db.
+dbms: where you can create, access, alter -control- dbs.
+rdbms: like dbms but for relational dbs -more complex connections-.
+the system im identifying is a SCHOOL:
+students: id, class, name.
+teachers: id, class-given, name.
+management: id, responsibility.
+class: teacherid, studentid.
+
+
